@@ -1,0 +1,259 @@
+
+.content {
+  width: 980px;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+.qq_nav {
+  width: 100%;
+  height: 150px;
+  background: url('../images/nav_bg.png') repeat-x;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+.qq_nav .container {
+  width: 1080px;
+  margin: 0 auto;
+}
+.qq_nav .container .content-left {
+  float: left;
+}
+.qq_nav .container .content-left .logo {
+  float: left;
+  width: 100px;
+  height: 75px;
+  /* line-height: 75px; */
+  background: url('../images/nav_brand.png') no-repeat center;
+}
+.qq_nav .container .content-left ul {
+  float: left;
+}
+.qq_nav .container .content-left ul li{
+  float: left;
+  line-height: 75px;
+  font-size: 18px;
+  font-weight: 700;
+
+  margin-left: 20px;
+}
+.qq_nav .container .content-left ul li.active,
+.qq_nav .container .content-left ul li:hover {
+  background-color: #12b7f5;
+}
+.qq_nav .container .content-left ul li a{
+  padding: 0 20px
+}
+.qq_nav .container .content-right {
+  float: right;
+}
+.qq_nav .container .content-right .orther {
+  width: 250px;
+  height: 75px;
+  float: right;
+}
+.qq_nav .container .content-right .register {
+  float: left;
+  width: 96px;
+  height: 36px;
+  background-color: #12b7f5;
+  border-radius: 18px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 36px;
+  transform: translateY(50%);
+  color: #fff;
+}
+.qq_nav .container .content-right ul {
+  float: right;
+}
+.qq_nav .container .content-right ul li {
+  float: left;
+  margin-left: 40px;
+  font-size: 14px;
+  text-shadow: 0 0 2px #333;
+
+}
+.qq_nav .container .content-right ul li a {
+  height: 50px;
+  display: block;
+  line-height: 50px;
+}
+.qq_nav .container .content-right p {
+  float: right;
+}
+
+
+.qq_banner {
+  height: 880px;
+  background: url('../images/banner-bg.jpg') no-repeat center top;
+  /* 设置padding的目的是让背景图占满上面的区域
+  因为背景图是不会管你padding的值的 */
+  padding-top: 150px;
+}
+.qq_banner img {
+  display: block;
+  margin: 20px auto;
+}
+.qq_banner img:last-child {
+  width: 100%;
+}
+
+.qq_sound h1{
+  height: 300px;
+  font-size: 0;
+  background: url('../images/sound-text.png') no-repeat center;
+}
+.qq_sound .bg {
+  height: 500px;
+  background: url('../images/sound-bg.jpg') no-repeat center/cover;
+}
+
+
+.qq_sound .content .iphone {
+  width: 700px;
+  height: 700px;
+  background: url('../images/sound-phone.png') no-repeat center top/cover;
+  position: absolute;
+  top: -200px;
+  left: 0;
+}
+.qq_sound .content h2 {
+  float: right;
+  font-size: 40px;
+  padding-top: 100px;
+  text-align: right;
+  width: 500px;
+}
+.qq_sound .content p {
+  float: right;
+  /* 这里需要设置宽度的原因是要超过父盒子的宽度才能换行 h2的宽度+这里的宽度
+    就超过了980px 所以会换行
+  */
+  width: 500px;
+  text-align: right;
+  padding-top: 50px;
+  font-size: 18px;
+  text-shadow: 0 0 2px #333;
+
+}
+
+.qq_file .bg {
+  height: 500px;
+  background: url('../images/file-bg.jpg') no-repeat center/cover;
+}
+.qq_file .content .computed {
+  width: 600px;
+  height: 340px;
+  background: url('../images/file-mac.png') no-repeat center /cover;
+  position: absolute;
+  top: 76px;
+  right: -60px;
+}
+.qq_file .content h2 {
+  float: left;
+  font-size: 40px;
+  padding-top: 100px;
+  text-align: left;
+  width: 500px;
+}
+  .qq_file .content p {
+    width: 500px;
+    float: left;
+    font-size: 18px;
+    text-align: left;
+    padding-top: 50px;
+    text-shadow: 0 0 2px #333;
+  }
+
+.qq_interest .bg {
+  height: 500px;
+  background: url('../images/interest-bg.jpg') no-repeat center/cover;
+}
+.qq_interest .phone {
+  width: 350px;
+  height: 500px;
+  background: url('../images/interest-phone.png') no-repeat center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.qq_interest h2 {
+  float: right;
+  font-size: 40px;
+  padding-top: 100px;
+  text-align: right;
+  width: 500px;
+}
+.qq_interest p {
+  width: 500px;
+  float: right;
+  font-size: 18px;
+  text-align: right;
+  padding-top: 50px;
+  text-shadow: 0 0 2px #333;
+}
+.qq_footer {
+  height: 250px;
+  background-color: #2a2a2a;
+  padding-top: 50px;
+}
+.qq_footer .pingtai {
+  width: 800px;
+  height: 150px;
+  margin: 0 auto;
+}
+.qq_footer .pingtai a {
+  float: left;
+  background: transparent url('../images/footer.png') no-repeat 10px 0;
+  width: 80px;
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+  padding-top: 50px;
+  margin: 0 60px;
+}
+.qq_footer .pingtai a:hover {
+  color: hotpink;
+}
+.qq_footer .pingtai a.andrion:hover  {
+  background-position: 0 -93px
+}
+.qq_footer .pingtai a.Pc:hover  {
+  background-position: -105px -93px;
+}
+.qq_footer .pingtai a.mac:hover  {
+  background-position: -210px -93px;
+}
+.qq_footer .pingtai a.pad:hover  {
+  background-position: -326px -93px;
+}
+.qq_footer .pingtai .andrion{
+  background-position: 0 0;
+
+}
+.qq_footer .pingtai .Pc{
+  background-position: -105px 0;
+}
+.qq_footer .pingtai .mac{
+  background-position: -210px 0;
+}
+.qq_footer .pingtai .pad{
+  background-position: -326px 0;
+}
+.qq_footer p {
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+}
+
+/* 使用时差插件必须加上这个属性 */
+.qq_sound .bg,
+.qq_file .bg,
+.qq_interest .bg {
+  background-attachment: fixed;
+}
